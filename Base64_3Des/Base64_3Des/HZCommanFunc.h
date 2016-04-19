@@ -8,8 +8,8 @@
 
 
 
-#define __BASE64( text )        [CommonFunc base64StringFromText:text]
-#define __TEXT( base64 )        [CommonFunc textFromBase64String:base64]
+#define __BASE64( text )        [HZCommanFunc base64StringFromText:text]
+#define __TEXT( base64 )        [HZCommanFunc textFromBase64String:base64]
 
 #import <Foundation/Foundation.h>
 
